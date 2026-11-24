@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>FRENOS Móvil - Supabase</title>
+    <title>FRENOS Móvil Patentes</title>
     <style>
         :root {
             --primary-color: #0056b3;
@@ -85,7 +85,7 @@
 <body>
 
 <div class="container">
-    <h2>FRENOS MÓVIL (Supabase)</h2>
+    <h2>FRENOS MÓVIL PatentesOCR</h2>
     
     <div class="form-group">
         <label>Patente (NROPAT)</label>
@@ -143,7 +143,7 @@
     <button type="button" class="btn btn-export" onclick="sincronizarConSupabase()">Sincronizar con Supabase ☁️</button>
     <button type="button" class="btn btn-new-day" onclick="iniciarNuevoDia()">Start New Day</button>
     <button type="button" class="btn btn-primary" onclick="mostrarPanelSupabase()">Conectar a Supabase</button>
-    <div id="supabasePanel" hidden style="margin-top:10px;padding:12px;border:1px solid #ced4da;border-radius:8px;background:#f8f9fa">
+    <div id="supabasePanel" hidden style="margin-top:10px;padding:12px;border:1px solid #ced4da;border-radius:8px;background:#020a11; ;color:#dfe5eb">
       <p style="font-size:13px;margin-bottom:8px">Ingresá el correo y la contraseña del usuario que creaste en Supabase. Se guardará la sesión en este teléfono.</p>
       <input id="supabaseEmail" type="email" autocomplete="username" placeholder="Correo electrónico" style="width:100%;padding:10px;margin-top:8px;border:1px solid #ced4da;border-radius:6px">
       <input id="supabasePassword" type="password" autocomplete="current-password" placeholder="Contraseña" style="width:100%;padding:10px;margin-top:8px;border:1px solid #ced4da;border-radius:6px">
